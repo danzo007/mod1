@@ -1,0 +1,21 @@
+@import url(reset.css);
+@import url(base.css);
+@import url(header.css);
+@import url(footer.css);
+@import url(nav.css);
+@import url(moreInfo.css);
+@import url(mainFirst.css);
+@import url(mainSecond.css);
+
+.container {
+    display: flex;         
+    flex-wrap: wrap;      
+    max-width: var(--width); 
+    margin: auto;          
+    align-items: flex-start;
+    font-family: var(--text-font);
+}
+.moreInfo, .footer {
+    margin: 0;
+    padding: 0; 
+}

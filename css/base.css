@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Kadwa:wght@400;700&display=swap');
+
+:root{
+    --color-swamp: #07a123;
+    --text-font: 'Bona Nova SC', cursive;
+    --color-dark-purple: #2a0c54;
+    --color-dark-blue: #176cda;
+    --color-footer: #52094c;
+    --font-size-h1: 64px;
+    --font-size-h2: 36px;
+    --font-size-main: 48px;
+    --font-size-text: 30px;
+    --width: 1440px;
+    --width-block: 480px;
+    --width-block-middle: 512px;
+    --width-block-small: 390px;
+    --height-minor: 360px;
+    --height-major: 720px;
+    --height-main: 1850px;
+    --img: 262px;
+    --font-size-regular: 2em;
+    --font-size-small: 1.5em;
+    --padding-text: 32px;
+    --pading-left: 32px;
+    --color: #ffffff;
+}

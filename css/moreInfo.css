@@ -1,0 +1,34 @@
+@import url(base.css);
+.moreInfo{
+    width: var(--width-block);
+    height: var(--height-major);
+    background-color: var(--color-swamp); 
+    font-size: var(--font-size-regular); 
+    
+}
+.moreInfo-image{
+    width: 480px;
+    height: 433px;
+}
+
+@media (max-width: 1024px) {
+    .moreInfo {
+        width: var(--width-block-middle);
+        
+    }
+    .moreInfo-image{
+        width: 512px;
+        height: 433px;
+    }
+}
+
+@media (max-width: 390px) {
+    .moreInfo {
+        width: var(--width-block-small);
+        font-size: var(--font-size-small);
+    }
+    .moreInfo-image{
+        width: 390px;
+        height: 505px;
+    }
+}

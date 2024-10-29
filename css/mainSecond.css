@@ -1,0 +1,24 @@
+@import url(base.css);
+.mainSecond{
+    width: var(--width-block);
+    height: var(--height-main);
+    margin-top: -360px; 
+    background-color: var(--color-dark-blue);
+    font-size: var(--font-size-regular);
+    color: white;
+}
+
+@media (max-width: 1024px) {
+    .mainSecond {
+        width: var(--width-block-middle);
+        margin-top: 0px; 
+    }
+}
+
+@media (max-width: 390px) {
+    .mainSecond {
+        width: var(--width-block-small);
+        font-size: var(--font-size-small);
+        height: 1000px;
+    }
+}
